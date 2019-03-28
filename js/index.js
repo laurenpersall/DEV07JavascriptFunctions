@@ -8,7 +8,7 @@ function resetSign01() {
 function resetSign02(event) {
     var signData = ['greeting', 'userSign', 'tiles', 'subTotal', 'shipping', 'grandTotal'];
     
-    for (var i-0; i<signData.length; i++) {
+    for (var i=0; i<signData.length; i++) {
         setTextContentById(signData[i], '');
     }
     
